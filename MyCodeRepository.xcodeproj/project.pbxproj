@@ -14,6 +14,8 @@
 		403FEB0B1F96EB8000CCCE91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403FEB091F96EB8000CCCE91 /* LaunchScreen.storyboard */; };
 		403FEB161F96EB8000CCCE91 /* MyCodeRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403FEB151F96EB8000CCCE91 /* MyCodeRepositoryTests.swift */; };
 		403FEB211F96EB8000CCCE91 /* MyCodeRepositoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403FEB201F96EB8000CCCE91 /* MyCodeRepositoryUITests.swift */; };
+		403FEB351F96EED800CCCE91 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403FEB341F96EED800CCCE91 /* Extension.swift */; };
+		403FEB371F96EF7D00CCCE91 /* 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = 403FEB361F96EF7D00CCCE91 /* 说明.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		403FEB1C1F96EB8000CCCE91 /* MyCodeRepositoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCodeRepositoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403FEB201F96EB8000CCCE91 /* MyCodeRepositoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCodeRepositoryUITests.swift; sourceTree = "<group>"; };
 		403FEB221F96EB8000CCCE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403FEB341F96EED800CCCE91 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		403FEB361F96EF7D00CCCE91 /* 说明.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "说明.md"; sourceTree = "<group>"; };
+		403FEB381F96EFB400CCCE91 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +102,14 @@
 		403FEAFF1F96EB8000CCCE91 /* MyCodeRepository */ = {
 			isa = PBXGroup;
 			children = (
+				403FEB311F96ED9F00CCCE91 /* NewStyle */,
 				403FEB001F96EB8000CCCE91 /* AppDelegate.swift */,
 				403FEB021F96EB8000CCCE91 /* ViewController.swift */,
 				403FEB041F96EB8000CCCE91 /* Main.storyboard */,
 				403FEB071F96EB8000CCCE91 /* Assets.xcassets */,
 				403FEB091F96EB8000CCCE91 /* LaunchScreen.storyboard */,
 				403FEB0C1F96EB8000CCCE91 /* Info.plist */,
+				403FEB381F96EFB400CCCE91 /* ReadMe.md */,
 			);
 			path = MyCodeRepository;
 			sourceTree = "<group>";
@@ -123,6 +130,15 @@
 				403FEB221F96EB8000CCCE91 /* Info.plist */,
 			);
 			path = MyCodeRepositoryUITests;
+			sourceTree = "<group>";
+		};
+		403FEB311F96ED9F00CCCE91 /* NewStyle */ = {
+			isa = PBXGroup;
+			children = (
+				403FEB341F96EED800CCCE91 /* Extension.swift */,
+				403FEB361F96EF7D00CCCE91 /* 说明.md */,
+			);
+			path = NewStyle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403FEB371F96EF7D00CCCE91 /* 说明.md in Resources */,
 				403FEB0B1F96EB8000CCCE91 /* LaunchScreen.storyboard in Resources */,
 				403FEB081F96EB8000CCCE91 /* Assets.xcassets in Resources */,
 				403FEB061F96EB8000CCCE91 /* Main.storyboard in Resources */,
@@ -259,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403FEB351F96EED800CCCE91 /* Extension.swift in Sources */,
 				403FEB031F96EB8000CCCE91 /* ViewController.swift in Sources */,
 				403FEB011F96EB8000CCCE91 /* AppDelegate.swift in Sources */,
 			);
